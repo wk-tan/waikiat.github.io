@@ -1,0 +1,15 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "wk-tan.github.io"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/wk-tan
+format:
+  html:
+    theme: litera
+    css: styles.css

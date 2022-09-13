@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "waikiat.github.io"
+version = "0.1.0"
+description = ""
+authors = ["Wai Kiat Tan <wk.tan@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.4"
+matplotlib = "^3.5.3"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.15.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
